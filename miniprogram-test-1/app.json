@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/chat/chat",
+    "pages/person/person"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#70BFEA",
+    "navigationBarTitleText": "辣鸡分分",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#70BFEA",
+    "selectedColor": "#0078D7",
+    "list": [
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "搜索",
+        "iconPath": "/images/huaban.png",
+        "selectedIconPath": "/images/huaban (1).png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "/images/shouye.png",
+        "selectedIconPath": "/images/shouye1.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "消息",
+        "iconPath": "/images/huaban (2).png",
+        "selectedIconPath": "/images/huaban (3).png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
